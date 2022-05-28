@@ -4,6 +4,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #212121;
   font-weight: 400;
+  margin: 0;
 }
 h1,
 h2,
@@ -43,12 +44,14 @@ img {
   line-height: 1.19230769;
   text-decoration: none;
   color: #212121;
+  margin-right: 93px;
 }
 
 /* main */
 
 .title {
   background-color: #2f303a;
+  height: 600px;
 }
 #title {
   font-family: 'Roboto';
@@ -115,24 +118,25 @@ img {
 }
 
 /* component */
+.menuadress:first-child {
+  margin-left: 371px;
+}
+.menuadress:last-child {
+  margin-left: 50px;
+}
 .menu {
   display: flex;
   align-items: center;
 }
 .menuitem:not(:first-child) {
-  margin: 46px;
+  margin-left: 46px;
 }
-.menuitem:first-child {
-  margin-left: 93px;
-}
+
 .container {
   width: 1200px;
   display: flex;
-}
-.containerrev {
-  width: 1200px;
-  display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
 }
 .highlight {
   color: #2196f3;
