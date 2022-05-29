@@ -1,4 +1,4 @@
-/* General */
+/* ==========================General ==========================*/
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -27,7 +27,7 @@ p {
 img {
   display: block;
 }
-/* header */
+/*========================== header ==========================*/
 
 .contact {
   font-family: 'Roboto';
@@ -45,13 +45,23 @@ img {
   text-decoration: none;
   color: #212121;
   margin-right: 93px;
+  margin-left: 215px;
 }
 
-/* main */
+/*========================== main ==========================*/
 
+.titlecontainer{
+  width: 696px;
+  height: 120px;
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  justify-content: center;
+}
 .title {
   background-color: #2f303a;
-  height: 600px;
+ 
 }
 #title {
   font-family: 'Roboto';
@@ -60,6 +70,8 @@ img {
   font-size: 44px;
   line-height: 1.5;
   color: #ffffff;
+  text-align: center;
+  
 }
 .headclass {
   font-family: 'Roboto';
@@ -101,7 +113,7 @@ img {
   color: #757575;
 }
 
-/* footer */
+/*========================== footer ==========================*/
 
 .bottom {
   background-color: #2f303a;
@@ -117,7 +129,8 @@ img {
   color: #2196f3;
 }
 
-/* component */
+/*========================== component ==========================*/
+
 .menuadress:first-child {
   margin-left: 371px;
 }
@@ -131,12 +144,16 @@ img {
 .menuitem:not(:first-child) {
   margin-left: 46px;
 }
+.menuitem{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .container {
   width: 1200px;
   display: flex;
   align-items: center;
-  height: 80px;
+  margin:0 auto;
 }
 .highlight {
   color: #2196f3;
@@ -193,7 +210,7 @@ img {
 .link {
   text-decoration: none;
 }
-/* buttons */
+/*========================== buttons ==========================*/
 .button:hover,
 .button:focus {
   background-color: #2196f3;
