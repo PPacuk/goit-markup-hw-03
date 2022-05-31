@@ -50,7 +50,7 @@ img {
 
 /*========================== main ==========================*/
 
-.titlecontainer{
+.titlecontainer {
   width: 696px;
   height: 120px;
   padding-top: 200px;
@@ -61,7 +61,6 @@ img {
 }
 .title {
   background-color: #2f303a;
- 
 }
 #title {
   font-family: 'Roboto';
@@ -71,7 +70,6 @@ img {
   line-height: 1.5;
   color: #ffffff;
   text-align: center;
-  
 }
 .headclass {
   font-family: 'Roboto';
@@ -144,7 +142,7 @@ img {
 .menuitem:not(:first-child) {
   margin-left: 46px;
 }
-.menuitem{
+.menuitem {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -153,7 +151,7 @@ img {
   width: 1200px;
   display: flex;
   align-items: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .highlight {
   color: #2196f3;
