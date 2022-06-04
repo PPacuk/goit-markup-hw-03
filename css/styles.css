@@ -45,19 +45,20 @@ img {
   text-decoration: none;
   color: #212121;
   margin-right: 93px;
-  margin-left: 215px;
+  display: flex;
+  align-items: center;
 }
 
 /*========================== main ==========================*/
 
 .titlecontainer {
+  display: flex;
   width: 696px;
   height: 120px;
+  margin: auto;
   padding-top: 200px;
-  padding-right: 452px;
   padding-bottom: 280px;
-  padding-left: 452px;
-  justify-content: center;
+  align-items: center;
 }
 .title {
   background-color: #2f303a;
@@ -150,7 +151,6 @@ img {
 .container {
   width: 1200px;
   display: flex;
-  align-items: center;
   margin: 0 auto;
 }
 .highlight {
@@ -239,4 +239,13 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: flex;
+  align-items: center; 
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+ margin:auto
+  margin-top: 440px;
+
+  
 }
