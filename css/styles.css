@@ -52,16 +52,15 @@ img {
 /*========================== main ==========================*/
 
 .titlecontainer {
-  display: flex;
-  width: 696px;
+  width: 654px;
   height: 120px;
   margin: auto;
+  margin-bottom: 15px;
   padding-top: 200px;
-  padding-bottom: 280px;
-  align-items: center;
 }
 .title {
   background-color: #2f303a;
+  height: 600px;
 }
 #title {
   font-family: 'Roboto';
@@ -71,6 +70,7 @@ img {
   line-height: 1.5;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
 }
 .headclass {
   font-family: 'Roboto';
@@ -79,13 +79,30 @@ img {
   font-size: 14px;
   line-height: 1.14285714;
   text-transform: uppercase;
+  width: 270px;
+  height: 16px;
 }
 .description {
   font-family: 'Roboto';
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71428571;
   color: #757575;
+  margin-top: 10px;
+  margin-bottom: 94px;
+  width: 270px;
+  height: 75px;
+}
+.features {
+  display: flex;
+  margin-top: 94px;
+  justify-content: space-between;
+}
+.portfolio{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
 }
 .midhead {
   font-family: 'Roboto';
@@ -93,6 +110,13 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16666667;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#team{
+  
+  padding-top: 94px;
 }
 .back {
   background-color: #f5f4fa;
@@ -148,9 +172,13 @@ img {
   padding-bottom: 32px;
 }
 
+.containerflex {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
 .container {
   width: 1200px;
-  display: flex;
   margin: 0 auto;
 }
 .highlight {
@@ -239,13 +267,8 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  align-items: center; 
+  display: block;
   width: 200px;
   height: 50px;
-  justify-content: center;
- margin:auto
-  margin-top: 440px;
-
-  
+  margin: auto;
 }
