@@ -14,48 +14,52 @@
   </head>
 
   <body>
-    <header class="contact">
-      <a class="banner" href="https://ppacuk.github.io/web-studio/"
-        ><span class="highlight">Web</span>Studio</a
-      >
-      <nav>
-        <ul>
-          <li><a class="link" href="./index.html">Agencja</a></li>
-          <li><a class="link" href="./portfolio.html"> Portfolio</a></li>
-          <li><a class="link" href="">Kontakt</a></li>
+     <header class="contact">
+      <div class="containerflex">
+        <a class="banner" href="https://ppacuk.github.io/web-studio/"
+          ><span class="highlight">Web</span>Studio</a>
+        <nav>
+          <ul class="menu">
+            <li class="menuitem"><a class="link " href="./index.html">Agencja</a></li>
+            <li class="menuitem"><a class="link " href="./portfolio.html"> Portfolio</a></li>
+            <li class="menuitem"><a class="link " href="">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="menu">
+          <li class="menuadress"><a class="adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="menuadress"><a class="adress" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a class="adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="adress" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <section>
+        <div class="container">
         <h2 hidden>walidator fix</h2>
-        <ul>
+        <ul class="menuport">
           <li>
-            <p><button class="button" type="button">Wszystkie</button></p>
+            <p><button class="menuport-list button" type="button">Wszystkie</button></p>
           </li>
           <li>
-            <p><button class="button" type="button">Strony</button></p>
+            <p><button class="menuport-list button" type="button">Strony</button></p>
           </li>
           <li>
-            <p><button class="button" type="button">Aplikacje</button></p>
+            <p><button class="menuport-list button" type="button">Aplikacje</button></p>
           </li>
           <li>
-            <p><button class="button" type="button">Dizajn</button></p>
+            <p><button class="menuport-list button" type="button">Dizajn</button></p>
           </li>
           <li>
-            <p><button class="button" type="button">Marketing</button></p>
+            <p><button class="menuport-list button" type="button">Marketing</button></p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
-        <ul>
+        <div class="container">
+        <ul class="example">
           <li>
-            <figure>
+            <figure class="example-img">
               <img src="./image/Portfolio/technocrack.jpg" alt="laptop" width="370" height="294" />
               <figcaption>
                 <h3 class="projectex">Technocrack</h3>
@@ -64,7 +68,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/grafika_new_orlean_vs_golden_star.jpg"
                 alt="dwoje ludzi gra w koszykówke"
@@ -78,7 +82,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/restauracja_seafood.jpg"
                 alt="logo restauracji seafood"
@@ -92,7 +96,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/projekt_pirme.jpg"
                 alt="słuchawki"
@@ -106,7 +110,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/projekt_boxes.jpg"
                 alt="dwa pudełka"
@@ -120,7 +124,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/inspiration_has_no_borders.jpg"
                 alt="monitor"
@@ -134,7 +138,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/magazyn_limited_edition.jpg"
                 alt="magazyn"
@@ -148,7 +152,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/projekt_lab.jpg"
                 alt="zawieszka z napisem"
@@ -162,7 +166,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="example-img">
               <img
                 src="./image/Portfolio/growing_business.jpg"
                 alt="ręce na laptopie xD"
@@ -176,14 +180,16 @@
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="bottom">
-        <a class="banner" href="https://ppacuk.github.io/web-studio/"
+        <div class="container">
+      <a class="banner" href="https://ppacuk.github.io/web-studio/"
           ><span class="highlight">Web</span><span class="highlightbanner">Studio</span></a
         >
-        <address class="contact">
+        <address class="contact-adress">
           <p>
             <a
               class="link"
@@ -194,6 +200,7 @@
           <p><a class="adress" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
           <p><a class="adress" href="tel:+48111111111">+48 111 111 111</a></p>
         </address>
+        </div>
     </footer>
   </body>
 </html>

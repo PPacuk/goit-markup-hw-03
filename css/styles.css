@@ -35,6 +35,14 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14285714;
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+.contact-adress {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714;
 }
 .banner {
   font-family: 'Raleway';
@@ -99,7 +107,7 @@ img {
   margin-top: 94px;
   justify-content: space-between;
 }
-.portfolio{
+.portfolio {
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;
@@ -110,13 +118,17 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16666667;
-  display: flex;
-  justify-content: center;
   margin-bottom: 50px;
+  text-align: center;
 }
-#team{
-  
+#team {
   padding-top: 94px;
+}
+.crew {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: center;
 }
 .back {
   background-color: #f5f4fa;
@@ -127,6 +139,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.875;
+  background-color: #ffffff;
 }
 .job {
   font-family: 'Roboto';
@@ -134,12 +147,25 @@ img {
   font-size: 16px;
   line-height: 1.875;
   color: #757575;
+  background-color: #ffffff;
+}
+.card {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 94px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /*========================== footer ==========================*/
 
 .bottom {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .highlightbottom {
   color: #ffffff;
@@ -151,9 +177,31 @@ img {
 .highlightbottom:focus {
   color: #2196f3;
 }
-
+.container .example {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.example-img {
+  margin: 0px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+.example:last-child {
+  margin-bottom: 94px;
+}
 /*========================== component ==========================*/
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.menuport {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 56px;
+  margin-top: 94px;
+}
 .menuadress:first-child {
   margin-left: 371px;
 }
@@ -196,6 +244,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-align: center;
 }
 .info {
   font-family: 'Roboto';
@@ -203,6 +252,7 @@ img {
   font-size: 16px;
   line-height: 1.875;
   color: #757575;
+  text-align: center;
 }
 .highlightbottom {
   color: #ffffff;
